@@ -2,7 +2,7 @@ body {
     margin: 20px;
     display: flex;
     flex-direction: column;
-    
+    align-content: center;
 
 }
 
@@ -13,4 +13,8 @@ h1 {
 img {
     width: 200px;
     height: 400px;
+}
+
+button {
+    width: 100px;
 }

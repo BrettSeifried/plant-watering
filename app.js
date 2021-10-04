@@ -32,4 +32,7 @@ button.addEventListener('click', () =>{
         plantHealth = 'overwatered';
       }
       console.log(plantHealth);
+      const resultText = `the plant is ${plantHealth}. Water Level ${waterLevel}`;
+      result.textContent = resultText;
+      plantImage.src = `./assets/${plantHealth}.jpg`;
 });
